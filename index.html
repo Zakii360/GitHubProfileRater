@@ -21,7 +21,7 @@
 </div>
 <script>
 const SUPABASE_URL="https://tvxugmumfvgnvjacwwfz.supabase.co";
-const SUPABASE_ANON_KEY="PASTE_YOUR_SUPABASE_ANON_KEY";
+const SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR2eHVnbXVtZnZnbnZqYWN3d2Z6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA3NjQ1MzEsImV4cCI6MjA5NjM0MDUzMX0.76wR9dblt8W9u-OioqQH7NOethNq1BMfjTDl9xcpYYI";
 const EDGE_URL=`${SUPABASE_URL}/functions/v1/profile-rater-ai`;
 const sb=supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY);
 const $=s=>document.querySelector(s), resultsEl=$("#results"), leaderboardEl=$("#leaderboard"), loadingEl=$("#loading");

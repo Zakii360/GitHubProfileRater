@@ -1,1 +1,1 @@
-# GitHubProfileRater
+Inline GitHub Profile Rater frontend. Put your Supabase anon key in index.html, create the profile-rater-ai edge function, and run the SQL.
